@@ -1,0 +1,29 @@
+[
+        [
+            "name" : "ExecShellScript",
+            "displayName" : "ExecShellScript",
+            "category" : "exec-workitem",
+            "description" : "",
+            "defaultHandler" : "mvel: new org.jbpm.process.workitem.exec.ExecShellScriptWorkItemHandler()",
+            "documentation" : "exec-workitem/index.html",
+
+            "parameters" : [
+                                "TimeoutInMillis" : new StringDataType()
+                ,"RemoveEnvironmentVariable" : new StringDataType()
+                ,"ShellScriptLocation" : new StringDataType()
+                ,"AddEnvironmentVariable" : new StringDataType()
+
+            ],
+            "results" : [
+                                "Output" : new StringDataType()
+
+            ],
+            "mavenDependencies" : [
+                                 "org.jbpm.contrib:exec-workitem:7.48.0.Final"
+
+            ],
+            "icon" : "ExecShellScript.png"
+
+        ]
+
+]
