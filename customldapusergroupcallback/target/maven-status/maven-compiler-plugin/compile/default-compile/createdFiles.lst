@@ -1,0 +1,7 @@
+com/custom/usergroupcallback/CustomLDAPUserInfoImpl.class
+com/custom/usergroupcallback/CustomLdapSearcher$SearchScope.class
+com/custom/usergroupcallback/AbstractCustomLDAPUserGroupInfo.class
+com/custom/usergroupcallback/CustomLDAPUserGroupCallbackImpl.class
+com/custom/usergroupcallback/AbstractCustomUserGroupInfo.class
+com/custom/usergroupcallback/CustomLdapSearcher$LdapResults.class
+com/custom/usergroupcallback/CustomLdapSearcher.class
